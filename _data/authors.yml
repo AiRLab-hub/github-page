@@ -1,0 +1,30 @@
+jaemin:
+  username: jaemin
+  name: Jaemin Lee
+  url_full: https://github.com/j911
+  url: github.com/j911
+  bio: 🔥
+  picture: assets/images/authors/jaemin.jpeg
+  facebook: False
+  twitter: False
+  cover: False
+minseok:
+  username: minseok
+  name: Minseok Seo
+  url_full: https://github.com/seominseok0429
+  url: github.com/seominseok0429
+  bio: 🥟
+  picture: assets/images/authors/minseok.jpeg
+  facebook: False
+  twitter: False
+  cover: False
+soyeol:
+  username: soyeol
+  name: Soyeol Lee
+  url_full: https://github.com/sy320329
+  url: github.com/sy320329
+  bio: False
+  picture: assets/images/authors/soyeol.jpeg
+  facebook: False
+  twitter: False
+  cover: False
