@@ -15,7 +15,8 @@ cover: False
 logo: assets/images/airlab-logo.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
-production_url: https://airlab-hub.github.io
+url: https://blog.airlab.re.kr
+production_url: https://blog.airlab.re.kr
 source_url: https://github.com/airlab-hub/github-page
 CNAME: #add cname for website to be created
 
@@ -74,7 +75,7 @@ repo: airlab-hub.github.io
 branch: master
 relative_source: ../airlab-hub.github.io/
 destination: ../deploy-airlab-blog/
-production_url:  https://airlab-hub.github.io
+production_url:  https://blog.airlab.re.kr
 source_url:  https://github.com/airlab-hub/github-page
 
 exclude:
