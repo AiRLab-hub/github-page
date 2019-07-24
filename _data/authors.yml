@@ -28,3 +28,23 @@ soyeol:
   facebook: False
   twitter: False
   cover: False
+daehan:
+  username: daehan
+  name: Daehan Kim
+  url_full: https://github.com/modernkim
+  url: github.com/modernkim
+  bio: 미래는 지금이다.
+  picture: assets/images/authors/daehan.jpeg
+  facebook: False
+  twitter: False
+  cover: False
+sangwoo:
+  username: sangwoo
+  name: Sangwoo Lee
+  url_full: https://github.com/chamaaamna
+  url: github.com/chamaaamna
+  bio: False
+  picture: assets/images/authors/sangwoo
+  facebook: False
+  twitter: False
+  cover: False
