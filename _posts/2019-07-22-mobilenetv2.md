@@ -4,7 +4,7 @@ current: post
 cover:  assets/images/posts/2019-07-22-mobilenetv2/cover.png
 navigation: True
 title: MobileNetV2
-date: 2017-07-22 10:00:00
+date: 2019-07-22 10:00:00
 tags: [paper-review]
 class: post-template
 subclass: 'post'
