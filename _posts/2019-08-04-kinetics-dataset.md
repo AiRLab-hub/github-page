@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover:  assets/images/posts/2019-08-04-kinetics-dataset/cover.png
+cover:  assets/images/posts/2019-08-04-kinetics-dataset/cover.PNG
 navigation: True
 title: Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset
 date: 2019-08-03 08:00:00
