@@ -1,3 +1,13 @@
+airlab:
+  username: airlab
+  name: AiRLab.
+  url_full: False
+  url: False
+  bio: False
+  picture: assets/images/authors/airlab.png
+  facebook: False
+  twitter: False
+  cover: False
 jaemin:
   username: jaemin
   name: Jaemin Lee
