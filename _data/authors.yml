@@ -1,6 +1,7 @@
 airlab:
   username: airlab
   name: AiRLab.
+  display: False
   url_full: False
   url: False
   bio: False
@@ -8,9 +9,27 @@ airlab:
   facebook: False
   twitter: False
   cover: False
+
+dgchoi:
+  username: dgchoi
+  name: Dong-Geol Choi
+  ko_name: 최동걸
+  position: professor
+  display: True
+  url_full: https://blog.airlab.re.kr/professor
+  url: blog.airlab.re.kr/professor
+  bio: False
+  picture: assets/images/authors/dgchoi.jpeg
+  facebook: False
+  twitter: False
+  cover: False
+
 jaemin:
   username: jaemin
   name: Jaemin Lee
+  ko_name: 이재민
+  position: bachelor
+  display: True
   url_full: https://github.com/j911
   url: github.com/j911
   bio: 🔥
@@ -21,6 +40,9 @@ jaemin:
 minseok:
   username: minseok
   name: Minseok Seo
+  ko_name: 서민석
+  position: bachelor
+  display: True
   url_full: https://github.com/seominseok0429
   url: github.com/seominseok0429
   bio: 🥟
@@ -31,6 +53,7 @@ minseok:
 soyeol:
   username: soyeol
   name: Soyeol Lee
+  display: False
   url_full: https://github.com/sy320329
   url: github.com/sy320329
   bio: False
@@ -41,6 +64,9 @@ soyeol:
 daehan:
   username: daehan
   name: Daehan Kim
+  ko_name: 김대한
+  position: bachelor
+  display: True
   url_full: https://github.com/modernkim
   url: github.com/modernkim
   bio: 미래는 지금이다.
@@ -51,10 +77,13 @@ daehan:
 sangwoo:
   username: sangwoo
   name: Sangwoo Lee
+  ko_name: 이상우
+  position: bachelor
+  display: True
   url_full: https://github.com/chamaaamna
   url: github.com/chamaaamna
   bio: False
-  picture: assets/images/authors/sangwoo
+  picture: assets/images/authors/sangwoo.jpeg
   facebook: False
   twitter: False
   cover: False
