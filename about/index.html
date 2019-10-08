@@ -1,0 +1,181 @@
+---
+layout: page
+current: about
+title: AiRLab.
+navigation: true
+logo: False
+class: page-template
+subclass: 'post page'
+---
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+
+.about-wrapper {
+   font-family: 'Nanum Gothic', sans-serif;
+   position: relative; 
+   box-sizing: border-box;
+}
+.introduce__profile {
+    font-size: 1.8rem;
+    text-align: left;
+    background-color: rgb(240, 240, 240);
+    padding: 10px 30px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px rgb(211, 211, 211);
+}
+.introduce__section {
+    margin-top: 40px;
+}
+.introduce__section__header {
+    line-height: 80px;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.introduce__section__body {
+    font-size: 1.8rem;
+    text-align: justify;
+}
+li.item.bold {
+    font-weight: 600;
+}
+.member__list, .member__contents {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.member__list .item{
+    text-align: left !important;
+}
+.member__profile--wrapper {
+    display: inline-block !important;
+    margin: 0 !important;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+.member__profile {
+    display: inline-block !important;
+    margin: 0 !important;
+    margin: auto; 
+    width: 150px;
+    height: auto;
+}
+.member__contents {
+    text-align: left !important;
+    display: inline-block;
+    width: 400px;
+    min-width: auto !important;
+    vertical-align: top;
+}
+.name__enname {
+    color: rgb(126, 126, 126);
+    font-weight: 400;
+}
+
+@media (max-width: 1040px) {
+    .member__profile {
+        width: 150px !important;;
+        height: 150px !important;;
+    }
+}
+@media (max-width: 800px) {
+    .introduce__section {
+        margin-top: 20px !important;
+    }
+    .introduce__section__body {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+    .introduce__section__body .body__list {
+        font-size: 1.6rem;
+    }
+    .member__list .item {
+        display: block;
+        text-align: center !important;
+    }
+    .member__profile {
+        max-width: 300px !important;
+        width: 80% !important;
+        min-width: 200px !important;
+        margin: 0 auto !important;
+        height: auto !important;
+    }
+    .member__contents { 
+        width: 100% !important;
+        margin: 10px 0 40px 0;
+    }
+
+}
+</style>
+
+
+<div class="about-wrapper">
+    <div class="intoduce">
+        <div class="introduce__profile">
+            한밭대학교 인공지능 및 로보틱스 연구실(Artificial Intelligence and Robotics Lab.)로 인공지능과 로보틱스 분야에 관심 있는 사람들이 모여, 해당 분야를 함께 공부하고 세계적인 연구 성과를 도출하기 위한 학술동아리 입니다.
+        </div>
+        <div class="introduce__section">
+            <div class="introduce__section__header">
+                Professor
+            </div>
+            <div class="introduce__section__body">
+                <ul class="member__list">
+                    {% for author in site.data.authors %}
+                        {% if author[1].display == true %}
+                            {% if author[1].position == "professor" %}
+                                    
+                                <li class="item">
+                                    <div class="member__profile--wrapper">
+                                        <img src="/{{ author[1].picture }}" alt="@{{ author[1].username }}" class="member__profile">
+                                    </div>
+                                    <ul class="member__contents">
+                                        <li class="item name bold">
+                                            <i class="fa fa-user"></i> {{ author[1].ko_name }}
+                                            <span class="name__enname">{{ author[1].name }}</span>
+                                        </li>
+                                        <li class="item homepage">
+                                            <i class="fa fa-link"></i> <a href="{{ author[1].url_full }}">{{ author[1].url }}</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="introduce__section">
+            <div class="introduce__section__header">
+                Members
+            </div>
+            <div class="introduce__section__body">
+                <ul class="member__list">
+                    {% for author in site.data.authors %}
+                        {% if author[1].display == true %}
+                            {% if author[1].position == "bachelor" %}
+                                    
+                                <li class="item">
+                                    <div class="member__profile--wrapper">
+                                        <img src="/{{ author[1].picture }}" alt="@{{ author[1].username }}" class="member__profile">
+                                    </div>
+                                    <ul class="member__contents">
+                                        <li class="item name bold">
+                                            <i class="fa fa-user"></i> {{ author[1].ko_name }}
+                                            <span class="name__enname">{{ author[1].name }}</span>
+                                        </li>
+                                        <li class="item homepage">
+                                            <i class="fa fa-link"></i> <a href="{{ author[1].url_full }}">{{ author[1].url }}</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
