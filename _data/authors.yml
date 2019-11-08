@@ -87,3 +87,42 @@ sangwoo:
   facebook: False
   twitter: False
   cover: False
+hyeyun:
+  username: hyeyun
+  name: Hyeyun Kang
+  ko_name: 강혜윤
+  position: bachelor
+  display: True
+  url_full: https://github.com/khyeyoon
+  url: github.com/khyeyoon
+  bio: False
+  picture: assets/images/authors/hyeyun.png
+  facebook: False
+  twitter: False
+  cover: False
+juhui:
+  username: juhui
+  name: Juhui Park
+  ko_name: 박주희
+  position: bachelor
+  display: True
+  url_full: https://github.com/juhui-hub
+  url: github.com/juhui-hub
+  bio: 🐯💕🌈
+  picture: assets/images/authors/juhui.jpeg
+  facebook: False
+  twitter: False
+  cover: False
+hyeoncheol:
+  username: hyeoncheol
+  name: Hyeoncheol Noh
+  ko_name: 노현철
+  position: bachelor
+  display: True
+  url_full: https://github.com/cjf8899
+  url: github.com/cjf8899
+  bio: False
+  picture: assets/images/authors/hyeoncheol.jpeg
+  facebook: False
+  twitter: False
+  cover: False

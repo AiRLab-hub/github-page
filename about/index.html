@@ -69,6 +69,9 @@ li.item.bold {
     min-width: auto !important;
     vertical-align: top;
 }
+.member__contents .bio {
+    font-size: 2.5rem;
+}
 .name__enname {
     color: rgb(126, 126, 126);
     font-weight: 400;
@@ -175,6 +178,11 @@ li.item.bold {
                                         </li>
                                         <li class="item homepage">
                                             <i class="fa fa-link"></i> <a href="{{ author[1].url_full }}">{{ author[1].url }}</a>
+                                        </li>
+                                        <li class="item bio">
+                                            {% if author[1].bio %}
+                                                {{ author[1].bio}}
+                                            {% endif %}
                                         </li>
                                     </ul>
                                 </li>
