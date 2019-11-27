@@ -11,7 +11,7 @@ subclass: 'post'
 author: sangwoo
 ---
 
-안녕하세요 AirLab 이상우입니다. 이번에 읽어본 논문은 Exploring Randomly Wired Neural Networks for Image Recognition 으로 Network Architecture 를 Random 하게 만들어보면 어떨까? 하는 생각을 가진 논문입니다.
+안녕하세요 AiRLab 이상우입니다. 이번에 읽어본 논문은 Exploring Randomly Wired Neural Networks for Image Recognition 으로 Network Architecture 를 Random 하게 만들어보면 어떨까? 하는 생각을 가진 논문입니다.
 
 <hr>
 
