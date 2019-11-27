@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover:  assets/images/posts/2019-11-18-BN/12.png
+cover:  assets/images/posts/2019-11-18-BN/12.PNG
 navigation: True
 title: Batch Normalization-Accelerating Deep Network Training by Reducing Internal Covariate Shift
 date: 2019-11-18 10:00:00
@@ -48,7 +48,7 @@ Batch Normalization: Accelerating Deep Network Training by Reducing Internal Cov
 - SGD의 변형인 momentum, Adagrad 등도 있음<br>
 - loss값을 최소화하기 위해 parameterθ을 최적화시킴<br>
 
-![Batch Normalization](/assets/images/posts/2019-11-18-BN/1.png)
+![Batch Normalization](/assets/images/posts/2019-11-18-BN/1.PNG)
 
 - SGD 사용 시 특징<br>
 
@@ -72,7 +72,7 @@ Batch Normalization: Accelerating Deep Network Training by Reducing Internal Cov
 
 [batch normalization 공식]
 
-![Batch Normalization](/assets/images/posts/2019-11-18-BN/2.png)
+![Batch Normalization](/assets/images/posts/2019-11-18-BN/2.PNG)
 
  - mini batch 단위에서 정규화 수행<br>
  - Mini batch 내의 한 example 내에서의 Activation 들은 각각 독립적<br>
@@ -80,31 +80,31 @@ Batch Normalization: Accelerating Deep Network Training by Reducing Internal Cov
 
 ### [Experiments_MNIST]
 
-![Batch Normalization](/assets/images/posts/2019-11-18-BN/3.png)
+![Batch Normalization](/assets/images/posts/2019-11-18-BN/3.PNG)
 
  ⦁Batch Normalization makes the distribution more stable and reduces the internal covariate shift.
 
 
 [Experiments_ImageNet classification]
 
-![Batch Normalization](/assets/images/posts/2019-11-18-BN/6.png)
+![Batch Normalization](/assets/images/posts/2019-11-18-BN/6.PNG)
 
 ### [Group normalization과 Batch normalization 비교]
 
 Normalization formulation
-![Batch Normalization](/assets/images/posts/2019-11-18-BN/9.png)
+![Batch Normalization](/assets/images/posts/2019-11-18-BN/9.PNG)
 
 ① Batch normalization
-![Batch Normalization](/assets/images/posts/2019-11-18-BN/10.png)
+![Batch Normalization](/assets/images/posts/2019-11-18-BN/10.PNG)
  -> batch 단위로 정규화 수행 <br>
  -> batch norm의 문제점 : batch size 단위로 정규화 시키는 과정에서 batch size에 의존적이게 되고, batch size가 작을 경우 학습이 잘 이루어지지 않음 <br>
 
 ② Group normalization
-![Batch Normalization](/assets/images/posts/2019-11-18-BN/11.png)
+![Batch Normalization](/assets/images/posts/2019-11-18-BN/11.PNG)
 
  위와 같은 문제점을 해결하기 위해 정규화를 batch 단위로 하지 않고, channel을 그룹으로 나누어 그 그룹을 단위로 정규화 수행<br>
  (더 이상 batch size에 의존적이지 않음)
 
-![Batch Normalization](/assets/images/posts/2019-11-18-BN/12.png)
+![Batch Normalization](/assets/images/posts/2019-11-18-BN/12.PNG)
 
  -> 위에 실험을 보면 batch size에 의존적인 BN은 batch size 별로 학습에 차이를 보였고, batch size에 비의존적인 GN은 어떤 batch size에도 학습이 잘 이루어지는 것을 확인할 수 있다.
