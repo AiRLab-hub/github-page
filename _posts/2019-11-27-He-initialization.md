@@ -1,10 +1,10 @@
 ---
 layout: post
 current: post
-cover:  /assets/images/posts/2019-11-13-He-initialization/ReLU_vs_PReLU.PNG
+cover:  assets/images/posts/2019-11-13-He-initialization/ReLU_vs_PReLU.PNG
 navigation: True
 title: Delving Deep into Rectifiers Surpassing Human-Level Performance on Imagenet Classification
-date: 2019-11-27 18:30:00
+date: 2019-11-27 1:30:00
 tags: [paper-review]
 class: post-template
 subclass: 'post'

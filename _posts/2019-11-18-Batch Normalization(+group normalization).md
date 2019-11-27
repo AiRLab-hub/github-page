@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover:  assets/images/posts/2019-11-18-Batch Normalization(+group normalization)/cover.png
+cover:  assets/images/posts/2019-11-18-BN/12.png
 navigation: True
 title: Batch Normalization-Accelerating Deep Network Training by Reducing Internal Covariate Shift
 date: 2019-11-18 10:00:00
